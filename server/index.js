@@ -21,7 +21,7 @@ const port = 8081;
 
 // Create a MySQL Connection pool
 const pool = mysql.createPool({
-    host: '',   //\你的数据库服务器的host
+    host: '',   //你的数据库服务器的host
     user: '',   //你用于登陆数据库服务器的用户名
     password: '',   //你用于登陆数据库服务器的密码
     database: '',  //你的数据库的名称
