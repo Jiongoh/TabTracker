@@ -1,7 +1,7 @@
 # TabTracker
 一个基于Vue2和Express的全栈项目
 
-[Link description](http://123.249.18.208/Jiong/Vue/TabTracker/client/index.html)
+[在线测试](http://123.249.18.208/Jiong/Vue/TabTracker/client/index.html)
 
 前端使用了Vue Router进行路由跳转，同时使用Vuex和vuex-router-sync将路由信息存储在全局状态中。使用vuex-persistedstate插件将Vuex数据存储在localstorage中。Axios用于在前端发送请求，同时使用Lodash工具库进行数据处理。Element UI组件库用于快速搭建页面。
 
