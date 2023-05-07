@@ -47,7 +47,7 @@
         <div class="wrap" v-if="!noResult && result.length <= 0">
           <el-row :gutter="20">
             <el-col :span="12"
-              ><div class="noresult">
+              ><div class="grid-content bg-purple">
                 <strong>{{ leftTab.name }}</strong>
                 <br />
                 <img :src="leftTab.image" width="400px" />
