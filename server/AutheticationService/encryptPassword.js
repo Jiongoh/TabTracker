@@ -5,7 +5,7 @@
 //     const hashPassword=await encryptPassword(password);
 // })()
 
-const bcrypt = require("bcrypt-nodejs");
+const bcrypt = require("bcrypt");
 
 function hashPassword(password) {
     return new Promise((resolve, reject) => {
